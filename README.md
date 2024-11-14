@@ -50,11 +50,10 @@ To start the app locally:
 
 1. Start the server:
     cd todo-api
-    npm install
-    npm start
+    node index.js
 
 2. Start the frontend:
-    cd ..
+    cd tility_App_todo-notes
     npm start
 
 Open http://localhost:3000 to view the app in the browser.
