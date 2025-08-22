@@ -1,0 +1,71 @@
+/* .nav-item{
+    width:70px;
+} */
+
+/* Navbar container */
+.navbar {
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364) !important; 
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Brand */
+.navbar-brand {
+    color: #f1f1f1 !important;
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffc107 !important;
+}
+
+/* Nav links container - horizontal layout */
+.navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 20px; /* space between links */
+    white-space: nowrap; /* prevent wrapping */
+}
+
+/* Individual nav links */
+.nav-link {
+    color: #ddd !important;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.2s ease;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+    transform: scale(1.05);
+}
+
+/* Active nav link */
+.nav-link.active {
+    color: #ffc107 !important;
+    font-weight: 600;
+}
+
+/* Toggler button for mobile */
+.navbar-toggler {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 6px 10px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* makes the icon white */
+}
+
+/* Ensure brand and links are on same line */
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

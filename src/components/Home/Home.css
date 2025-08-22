@@ -1,0 +1,41 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+
+    /* Dark gradient */
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+    /* Optional: animated gradient */
+    background-size: 300% 300%;
+    animation: gradientShift 12s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.link {
+    display: flex !important;
+    font-size: x-large !important; 
+    font-weight: bold !important;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+
+    /* Better dark theme styling */
+    background: #1f1f1f;
+    color: #f1f1f1;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.6); /* glow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 193, 7, 0.9);
+}

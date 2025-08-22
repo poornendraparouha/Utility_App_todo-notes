@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(
+    to bottom right,
+    rgba(186, 230, 253, 0.6), /* baby blue */
+    rgba(187, 247, 208, 0.6), /* soft mint */
+    rgba(254, 249, 195, 0.6)  /* pale cream */
+  );
+  min-height: 100vh;
+  color: #222;
+}
+
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000; 
+  text-shadow: 0 0 8px rgba(28, 242, 64, 0.6);
+}
+
