@@ -3,8 +3,6 @@ import cors from "cors";
 import todoRoutes from "./todoRoutes.js";
 import noteRoutes from "./noteRoutes.js";
 
-import 'dotenv/config'
-
 const server = express();
 
 // Enable CORS for all routes
